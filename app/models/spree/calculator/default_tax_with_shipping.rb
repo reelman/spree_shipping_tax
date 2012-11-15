@@ -25,8 +25,7 @@ module Spree
 
         # computer order total for UK VAT, by calculating vat on each line item separately
         line_items_total = matched_line_items.sum {|li|  round_to_two_places(li.total * rate.amount)}
-        debugger
-        line_items_total + order.shipments.sum {|shipment| round_to_two_places(shipment.adjustment.amount * rate.amount)}
+        line_items_total + order.shipments.sum {|shipment| shipment.adjustment ? (round_to_two_places(shipment.adjustment.amount * rate.amount)) : 0}
       end
 
   end
