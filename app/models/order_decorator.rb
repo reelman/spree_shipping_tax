@@ -1,4 +1,4 @@
-Spree::Order.state_machine.before_transition from: :delivery , do: :create_tax_charge!
+Spree::Order.state_machine.after_transition from: :delivery , do: :create_tax_charge!
 
 Spree::Order.class_eval do
   def price_adjustments_with_shipping_adjustments
