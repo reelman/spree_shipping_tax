@@ -1,15 +1,23 @@
+<<<<<<< HEAD
 \#*
 *~
 .#*
 .DS_Store
 .idea
 .project
+coverage
+Gemfile.lock
+tmp
+nbproject
+pkg
+*.swp
+spec/dummy
+=======
 *.gem
 *.rbc
 .bundle
 .config
 coverage
-Gemfile.lock
 InstalledFiles
 lib/bundler/man
 pkg
@@ -18,12 +26,9 @@ spec/reports
 test/tmp
 test/version_tmp
 tmp
-nbproject
-pkg
-*.swp
-spec/dummy
 
 # YARD artifacts
 .yardoc
 _yardoc
 doc/
+>>>>>>> de2bc1d3da30a4c5edffa8148d5c90125fa2ecd8

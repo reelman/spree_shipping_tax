@@ -1,0 +1,28 @@
+<<<<<<< HEAD
+SpreeShippingTax
+================
+
+Introduction goes here.
+
+
+Example
+=======
+
+Example goes here.
+
+Testing
+-------
+
+Be sure to bundle your dependencies and then create a dummy test app for the specs to run against.
+
+    $ bundle
+    $ bundle exec rake test_app
+    $ bundle exec rspec spec
+
+Copyright (c) 2012 [name of extension creator], released under the New BSD License
+=======
+spree_shipping_tax
+==================
+
+Calculates tax on shipping adjustments in a spree store
+>>>>>>> de2bc1d3da30a4c5edffa8148d5c90125fa2ecd8
